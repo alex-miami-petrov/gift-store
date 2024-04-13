@@ -1,8 +1,8 @@
 body {
-  font-family: ;
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
-  background-color: ;
-  color: ;
+  background-color: #fafafa;
+  color: #000;
 }
 
 h1,
@@ -58,15 +58,150 @@ button {
 
 /* HEADER */
 
+.header {
+}
+
+.nav {
+}
+.logo-link {
+}
+.logo-img {
+}
+.nav-list {
+}
+.nav-item {
+}
+.nav-menu-link {
+}
+.header-btn-link {
+}
+
 /* HERO */
 
 .hero {
   padding-top: ;
   padding-bottom: ;
 }
+.hero-title {
+}
+.hero-text {
+}
+.hero-btn {
+}
+.hero-img {
+}
 
-/*  */
+/* ABOUT */
 
-/*  */
+.about {
+}
 
-/*  */
+.about-img {
+}
+.about-title {
+}
+.about-text {
+}
+.about-btn-link {
+}
+
+/* SERVICES */
+
+.services {
+}
+
+.services-title {
+}
+.services-text {
+}
+.services-list {
+}
+.services-item {
+}
+.services-img {
+}
+.services-subtitle {
+}
+.services-link {
+}
+
+/* SIGN */
+
+.sign {
+}
+
+.sign-title {
+}
+.sign-text {
+}
+.sign-btn {
+}
+.sign-btn-link {
+}
+
+/* BLOGS */
+
+.blogs {
+}
+
+.blogs-title {
+}
+.blogs-text {
+}
+.blogs-img {
+}
+.blogs-main {
+}
+.blogs-main-item {
+}
+.blogs-main-subtitle {
+}
+.blogs-main-text {
+}
+.blogs-main-link {
+}
+.blogs-list-one {
+}
+.blogs-item {
+}
+.blogs-subtitle {
+}
+.blogs-list-text {
+}
+.blogs-link {
+}
+.blogs-list-two {
+}
+
+/* FOOTER */
+
+.footer {
+}
+.footer-container {
+}
+.footer-menu-one {
+}
+.footer-item {
+}
+.footer-link {
+}
+.logo-link {
+}
+.logo-img {
+}
+.footer-menu-two {
+}
+.footer-soc-list {
+}
+.soc-item {
+}
+.soc-link {
+}
+.soc-icon {
+}
+.footer-copyrights {
+}
+.footer-tm {
+}
+.privacy {
+}
