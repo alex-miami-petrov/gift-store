@@ -45,13 +45,6 @@ ul {
   padding-left: 0;
 }
 
-.title {
-  font-weight: ;
-  font-size: ;
-  line-height: ;
-  color: ;
-}
-
 button {
   cursor: pointer;
 }
@@ -200,35 +193,102 @@ button {
 /* ABOUT */
 
 .about {
+  padding-top: 164px;
+  padding-bottom: 104px;
+}
+
+.work-container {
+  display: flex;
 }
 
 .about-img {
+  position: relative;
+  right: 10%;
+  top: 40%;
 }
+
+.work-wrap {
+  position: absolute;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
 .about-title {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.40625;
+  margin-left: 112px;
+  margin-right: 319px;
+  margin-bottom: 23px;
 }
 .about-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.40625;
+  text-align: justify;
+  margin-left: 112px;
+  margin-right: 166px;
+  margin-bottom: 35px;
+  max-width: 441px;
 }
 .about-btn-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.34766;
+  text-transform: uppercase;
+  text-align: center;
+  color: #f7941e;
+  border: 1px solid #f7941e;
+  border-radius: 5px;
+  max-width: 200px;
+  height: 60px;
+  padding: 21px 37px 14px 37px;
+  margin-left: 112px;
 }
 
 /* SERVICES */
 
 .services {
+  padding-top: 96px;
+  padding-bottom: 104px;
 }
 
 .services-title {
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 22px;
 }
 .services-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.35938;
+  text-align: center;
+  margin-bottom: 27px;
 }
+
 .services-list {
+  background-color: #fff;
+  display: flex;
+  gap: 30px;
 }
 .services-item {
+  width: calc(100% - 90px) / 4;
 }
 .services-img {
 }
 .services-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 73px;
 }
 .services-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.35938;
+  margin-bottom: 24px;
 }
 
 /* SIGN */
