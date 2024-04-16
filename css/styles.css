@@ -29,9 +29,9 @@ img {
 }
 
 .container {
-  width: ;
-  padding-left: ;
-  padding-right: ;
+  width: 1470px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -61,26 +61,68 @@ button {
 .header {
   padding-top: 27px;
   padding-bottom: 27px;
+  margin: 0 auto;
 }
 
 .header-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nav-container {
+  display: flex;
 }
 
 .nav {
+  display: flex;
+  flex-direction: row;
 }
 .logo-link {
+  position: relative;
+  /* bottom: 10px; */
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 80px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 .logo-img {
 }
 .nav-list {
+  position: absolute;
+  right: 42%;
+
+  display: flex;
+  justify-content: center;
+  gap: 31px;
+  margin-top: 20px;
 }
 .nav-item {
+  font-weight: 400;
+  font-size: 18px;
 }
 .nav-menu-link {
 }
+
+.header-link-wrap {
+  display: flex;
+  margin-left: auto;
+  padding-right: 24px;
+  margin-top: 9px;
+}
+
 .header-btn-link {
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #f7941e;
+  border: 1px solid #f7941e;
+  border-radius: 5px;
+  min-width: 150px;
+  height: 43px;
+  padding: 13px 11px 4px 11px;
 }
 
 /* HERO */
