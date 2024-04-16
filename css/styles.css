@@ -59,6 +59,13 @@ button {
 /* HEADER */
 
 .header {
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav {
