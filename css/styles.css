@@ -67,7 +67,7 @@ button {
   display: flex;
 }
 
-.nav {
+.header-nav {
   display: flex;
   flex-direction: row;
 }
@@ -180,7 +180,7 @@ button {
 
 .hero-img {
   position: absolute;
-  right: 576px;
+  right: 293px;
   top: 9%;
   max-width: 100%;
 }
@@ -385,20 +385,40 @@ button {
   text-align: center;
   margin-bottom: 71px;
 }
+
+.blogs-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
 .blogs-img {
 }
 .blogs-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #231f20;
+  width: 770px;
+  height: 370px;
+  padding-top: 63px;
+  padding-bottom: 49px;
+  padding-left: 78px;
 }
 .card-title {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.41;
   color: #fff;
+  padding-bottom: 27px;
 }
 .card-subtitle {
   font-weight: 400;
   font-size: 48px;
   color: #fff;
+  max-width: 492px;
+  padding-bottom: 60px;
 }
 .blogs-card-link {
   font-weight: 400;
@@ -408,6 +428,8 @@ button {
 }
 
 .blogs-wrap {
+  display: flex;
+  justify-content: center;
 }
 
 .blogs-list {
@@ -418,10 +440,12 @@ button {
 .blogs-item:first-child {
   box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.05);
   background: #fff;
+  width: 570px;
 }
 
 .blogs-item {
   width: calc((100% - 30px) / 2);
+  padding: 48px;
 }
 .blogs-subtitle {
   font-weight: 700;
@@ -445,11 +469,32 @@ button {
 
 /* FOOTER */
 
+.footer-wrapper {
+  width: 1010px;
+  margin: 0 auto;
+}
+
 .footer {
+  padding-top: 115px;
+  padding-bottom: 35px;
 }
 .footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
+
+.footer-nav {
+  display: flex;
+}
+
+.footer-menu-wrap {
+}
+
 .footer-menu-one {
+  display: flex;
+  justify-content: flex-start;
+  gap: 74px;
 }
 .footer-item {
 }
@@ -457,10 +502,19 @@ button {
 }
 .logo-link {
 }
-.logo-img {
+.footer-logo {
 }
 .footer-menu-two {
+  display: flex;
+  justify-content: center;
+  gap: 74px;
 }
+
+.footer-logo-wrap {
+  display: flex;
+  margin-left: auto;
+}
+
 .footer-soc-list {
 }
 .soc-item {
