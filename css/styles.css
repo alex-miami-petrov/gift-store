@@ -180,7 +180,7 @@ button {
 
 .hero-img {
   position: absolute;
-  right: 22.6%;
+  right: 14.8%;
   top: 9%;
   max-width: 100%;
 }
@@ -533,8 +533,12 @@ button {
 }
 
 .footer-soc-list {
+  display: flex;
+  justify-content: center;
 }
 .soc-item {
+  display: flex;
+  gap: 24px;
 }
 .soc-link {
 }
